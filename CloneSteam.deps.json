@@ -43,11 +43,11 @@
           }
         }
       },
-      "Microsoft.Xaml.Behaviors.Wpf/1.1.31": {
+      "Microsoft.Xaml.Behaviors.Wpf/1.1.77": {
         "runtime": {
-          "lib/net5.0-windows7.0/Microsoft.Xaml.Behaviors.dll": {
+          "lib/net6.0-windows7.0/Microsoft.Xaml.Behaviors.dll": {
             "assemblyVersion": "1.1.0.0",
-            "fileVersion": "1.1.31.10800"
+            "fileVersion": "1.1.77.27830"
           }
         }
       },
@@ -73,7 +73,7 @@
       },
       "Prism.Wpf/8.1.97": {
         "dependencies": {
-          "Microsoft.Xaml.Behaviors.Wpf": "1.1.31",
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.77",
           "Prism.Core": "8.1.97"
         },
         "runtime": {
@@ -112,11 +112,20 @@
         "dependencies": {
           "CommunityToolkit.Mvvm": "8.2.2",
           "Material.Icons.WPF": "2.1.0",
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.77",
           "Prism.Unity": "8.1.97",
           "Prism.Wpf": "8.1.97"
         },
         "runtime": {
           "CloneSteam.Core.dll": {}
+        }
+      },
+      "CloneSteam.Library/1.0.0": {
+        "dependencies": {
+          "CloneSteam.Core": "1.0.0"
+        },
+        "runtime": {
+          "CloneSteam.Library.dll": {}
         }
       },
       "CloneSteam.Login/1.0.0": {
@@ -129,6 +138,8 @@
       },
       "CloneSteam.Main/1.0.0": {
         "dependencies": {
+          "CloneSteam.Core": "1.0.0",
+          "CloneSteam.Library": "1.0.0",
           "CloneSteam.Login": "1.0.0"
         },
         "runtime": {
@@ -164,12 +175,12 @@
       "path": "material.icons.wpf/2.1.0",
       "hashPath": "material.icons.wpf.2.1.0.nupkg.sha512"
     },
-    "Microsoft.Xaml.Behaviors.Wpf/1.1.31": {
+    "Microsoft.Xaml.Behaviors.Wpf/1.1.77": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-LZpuf82ACZWldmfMuv3CTUMDh3o0xo0uHUaybR5HgqVLDBJJ9RZLykplQ/bTJd0/VDt3EhD4iDgUgbdIUAM+Kg==",
-      "path": "microsoft.xaml.behaviors.wpf/1.1.31",
-      "hashPath": "microsoft.xaml.behaviors.wpf.1.1.31.nupkg.sha512"
+      "sha512": "sha512-MCu674ZETgU18EbxfwIlRpUPJ02YbZenLsMCXTkpeA7KUBpXfFaOUDlEO+7UWu5AFnUoydg+aQENJkuaZPheMQ==",
+      "path": "microsoft.xaml.behaviors.wpf/1.1.77",
+      "hashPath": "microsoft.xaml.behaviors.wpf.1.1.77.nupkg.sha512"
     },
     "Prism.Core/8.1.97": {
       "type": "package",
@@ -221,6 +232,11 @@
       "hashPath": "unity.container.5.11.11.nupkg.sha512"
     },
     "CloneSteam.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CloneSteam.Library/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
