@@ -122,7 +122,8 @@
       },
       "CloneSteam.Library/1.0.0": {
         "dependencies": {
-          "CloneSteam.Core": "1.0.0"
+          "CloneSteam.Core": "1.0.0",
+          "CloneSteam.Support": "1.0.0"
         },
         "runtime": {
           "CloneSteam.Library.dll": {}
@@ -144,6 +145,11 @@
         },
         "runtime": {
           "CloneSteam.Main.dll": {}
+        }
+      },
+      "CloneSteam.Support/1.0.0": {
+        "runtime": {
+          "CloneSteam.Support.dll": {}
         }
       }
     }
@@ -247,6 +253,11 @@
       "sha512": ""
     },
     "CloneSteam.Main/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CloneSteam.Support/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
